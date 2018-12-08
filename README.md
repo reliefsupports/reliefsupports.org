@@ -66,12 +66,13 @@ Run `vagrant ssh` for terminal access to vagrant env.
 ### Guidelines
 
 -   Setup the application code base in your local machine using the above steps.
--   See the Issue Tracker and get a proper understanding of what's done and what's need to be done.
+-   See the Issue Tracker, read the [wiki](https://github.com/reliefsupports/reliefsupports.org/wiki) and get a proper understanding of what's done and what's need to be done.
 -   Always create a separate branch when you starting to work on something.
 -   Keep the local working directory always up to date.
 -   Always use `git rebase` with master and fix conflicts before you create a pull request.
 -   At least one peer review and approval required to merge a pull request to the master.
 -   Don't create new `labels`. If you feel that we need a new `label`, please create an issue for that first.
+-   If you do any database schema or architectural changes you should update those in respective places on the [wiki](https://github.com/reliefsupports/reliefsupports.org/wiki).
 
 #### Issue labels
 
