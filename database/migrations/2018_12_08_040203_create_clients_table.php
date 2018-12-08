@@ -16,9 +16,10 @@ class CreateClientsTable extends Migration
     {
         Schema::create('clients', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('client_id');
-            $table->string('app_id')->default(Uuid::uuid1());
-            $table->string('app_secret')->default(Uuid::uuid1());
+            $table->string('client_id')->unique();
+            $table->string('client_name');
+            $table->string('app_id')->default(Uuid::uuid1())->unique();
+            $table->string('app_secret')->default(Uuid::uuid1())->unique();
             $table->timestamps();
         });
     }
