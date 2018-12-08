@@ -92,9 +92,7 @@ Please use following naming conventions when you creating branches for your work
 -   bug - `fix/<bug-name-or-id-or-issue-number>`
 -   refactoring tasks - `refactor/<refactor-name-or-id-or-issue-number>`
 
-## Contributors
-
-See [CONTRIBUTORS.md](https://github.com/reliefsupports/reliefsupports.org/blob/master/CONTRIBUTORS.md)
+## [Contributors](https://github.com/reliefsupports/reliefsupports.org/blob/master/CONTRIBUTORS.md)
 
 ## License
 
