@@ -1,5 +1,7 @@
 # reliefsupports.org
 
+[![Riot.im](https://img.shields.io/badge/chat-Riot.im-lightgrey.svg)](https://riot.im/app/#/room/#reliefsupports:matrix.org)
+
 This is a community-driven Open Source project to support relief support activities conducted by volunteers. This project was originally created to support flood relief activities in Sri Lanka in May 2017.
 
 We are currently on a phase of revamping the application and we welcome your innovative ideas and suggestions to make a better solution for the community.
