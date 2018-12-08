@@ -6,15 +6,16 @@ This is a community-driven Open Source project to support relief support activit
 
 We are currently on a phase of revamping the application and we welcome your innovative ideas and suggestions to make a better solution for the community.
 
-## Prerequisites
+## Developer Guide
+
+### Prerequisites
 
 -   PHP >= 7.1.3
 -   [composer](https://getcomposer.org/)
--   [Laravel](https://laravel.com/)
 -   [Vagrant](https://www.vagrantup.com/)
 -   [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
-## Setup
+### Setup
 
 ```
 git clone git@github.com:reliefsupports/reliefsupports.org.git
@@ -27,7 +28,7 @@ npm i // or npm install
 
 > `composer install` runs in background as a `preinstall` npm script
 
-### Start
+#### Start
 
 -   Create `.env` file by copying `.env.example`
 
@@ -36,14 +37,14 @@ npm i // or npm install
 -   Run `php artisan key:generate --show` and copy the generated key string.
 -   Update that key string with `APP_KEY` in the `.env`.
 
-#### With Vagrant/Homestead (Recomended)
+##### With Vagrant/Homestead (Recomended)
 
 -   Run `npm run vagrant:init:<mac|win>` command to initialize the development environment.
 -   Run `npm run vagrant` or `vagrant up`.
 -   Run `vagrant ssh` for logging to Vagrant Dev. Environment.
 -   Run `npm run vagrant:destroy` or `vagrant destroy` to destroy the Vagrant env.
 
-##### Update host files
+###### Update host files
 
 Add following record to `hosts` file. After then you can access your dev site via `reliefsupports.local`.
 
@@ -53,7 +54,7 @@ Add following record to `hosts` file. After then you can access your dev site vi
 
 > https://support.rackspace.com/how-to/modify-your-hosts-file/
 
-#### Database migrations/seed
+##### Database migrations/seed
 
 ```
 php artisan migrate // or npm run db:migrate
@@ -62,7 +63,7 @@ php artisan db:seed // or npm run db:seed
 
 Run `vagrant ssh` for terminal access to vagrant env.
 
-## Developer Guide
+### Guidelines
 
 -   Setup the application code base in your local machine using the above steps.
 -   See the Issue Tracker and get a proper understanding of what's done and what's need to be done.
@@ -72,7 +73,7 @@ Run `vagrant ssh` for terminal access to vagrant env.
 -   At least one peer review and approval required to merge a pull request to the master.
 -   Don't create new `labels`. If you feel that we need a new `label`, please create an issue for that first.
 
-### Issue labels
+#### Issue labels
 
 -   `story` - High-level user stories. These are can break into multiple sub-tasks and assign to different people.
 -   `priority:<high|critical|medium|low>`
@@ -82,7 +83,7 @@ Run `vagrant ssh` for terminal access to vagrant env.
 -   `enhancement`
 -   `refactoring`
 
-### Branching model
+#### Branching model
 
 Please use following naming conventions when you creating branches for your work. All feature names should be in all lowercase.
 
