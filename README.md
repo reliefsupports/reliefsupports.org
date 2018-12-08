@@ -1,9 +1,16 @@
 # reliefsupports.org
 
+This is a community-driven Open Source project to support relief support activities conducted by volunteers. This project was originally created to support flood relief activities in Sri Lanka in May 2017.
+
+We are currently on a phase of revamping the application and we welcome your innovative ideas and suggestions to make a better solution for the community.
+
 ## Prerequisites
 
--   Install [composer](https://getcomposer.org/), [Laravel](https://laravel.com/)
--   Install [Vagrant](https://www.vagrantup.com/), [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+-   PHP >= 7.1.3
+-   [composer](https://getcomposer.org/)
+-   [Laravel](https://laravel.com/)
+-   [Vagrant](https://www.vagrantup.com/)
+-   [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 ## Setup
 
@@ -66,7 +73,7 @@ Run `vagrant ssh` for terminal access to vagrant env.
 ### Issue labels
 
 -   `story` - High-level user stories. These are can break into multiple sub-tasks and assign to different people.
--   `piority:<high|critical|medium|low>`
+-   `priority:<high|critical|medium|low>`
 -   `feature`
 -   `bug`
 -   `duplicate`
@@ -81,3 +88,7 @@ Please use following naming conventions when you creating branches for your work
 -   configureation/devops work - `devops/<config-name-or-id-or-issue-number>`
 -   bug - `fix/<bug-name-or-id-or-issue-number>`
 -   refactoring tasks - `refactor/<refactor-name-or-id-or-issue-number>`
+
+## License
+
+MIT
